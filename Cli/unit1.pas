@@ -8,12 +8,10 @@ uses
   {$IFDEF Linux}
   BaseUnix, Unix,
   {$ELSE}
-  WinSock, ssockets,
+  Windows, WinSock, ssockets,
   {$ENDIF}
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  frxServerClient, frxServer, frxHTTPClient, ctypes, Sockets,
-  LCLType, Messages, LMessages, LCLIntf,
-  Windows ;
+  ctypes, Sockets, LCLType, Messages, LMessages, LCLIntf;
 
 type
 
