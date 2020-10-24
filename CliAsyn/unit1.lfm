@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 256
+  Height = 499
+  Top = 127
+  Width = 746
+  Caption = 'Form1'
+  ClientHeight = 499
+  ClientWidth = 746
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 376
+    Height = 15
+    Top = 40
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 376
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 8
+    Height = 482
+    Top = 8
+    Width = 361
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+end
